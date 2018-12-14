@@ -44,7 +44,8 @@ app.get( "/*", ( req, res ) => {
     } );
 } );
 
-app.listen( 2048 );
+app.listen( 80 );
+app.listen( 443 );
 
 function htmlTemplate( reactDom, reduxState, helmetData ) {
     return `
