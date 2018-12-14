@@ -44,8 +44,7 @@ app.get( "/*", ( req, res ) => {
     } );
 } );
 
-app.listen( 80 );
-app.listen( 443 );
+app.listen( process.env.PORT || 80 );
 
 function htmlTemplate( reactDom, reduxState, helmetData ) {
     return `
