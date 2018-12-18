@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node index.js",
     "build": "webpack --progress --mode=production",
     "dev": "npm-run-all --parallel server client",
     "server": "nodemon index.js",
